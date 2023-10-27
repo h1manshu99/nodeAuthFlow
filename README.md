@@ -56,5 +56,3 @@ Before you begin, ensure you have met the following requirements:
 
     This command will start the Node.js server, and you should see a message indicating that the server is running on a specific port (e.g., Server is running on port 3000).
 
-
-**POSTMAN COLLECTION**    
