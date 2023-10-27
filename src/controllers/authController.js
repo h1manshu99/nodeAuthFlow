@@ -8,7 +8,7 @@ async function login(req, res, next) {
 
     // Store user data in the session (if using express-session)
     req.session.user = user;
-    res.json({ message: "Login Successful", token: token });
+    res.status(200).json({ message: "Login Successful", token: token });
   } catch (error) {
     console.error("error", error);
     next(error);

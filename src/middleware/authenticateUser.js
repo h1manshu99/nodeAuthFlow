@@ -4,7 +4,7 @@ const User = require("../models/User");
 
 async function authenticateReq(req, res, next) {
   const token =
-    req.headers["authorization"] || req.query.token || req.cookies.token;
+    req.headers["authorization"] || req.query?.token || req.cookies?.token;
 
   if (!token) {
     return next(
